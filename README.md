@@ -130,7 +130,7 @@ say_hello_world_ten_times
 
 That's way cleaner and follows the code principle "Don't Repeat Yourself" or
 DRY. We abstract the action or procedure of putting "Hello World!" ten times
-into a method. By defining the method  `say_hello_world_ten_times` once, we can
+into a method. By defining the method `say_hello_world_ten_times` once, we can
 "call" or "invoke" the method as many times as we want in the future. Let's look
 at methods in greater detail.
 
@@ -282,5 +282,5 @@ with a `#`, and in subsequent lessons, you might see methods written with a `#`
 in front of the method name. For example, if a method is named 'greeting',
 rubyists will often refer to it as `#greeting`. This is so that other rubyists
 can instantly recognize it as a method, as opposed to a variable or a bareword
-or a class.  But remember that when you write it in your code, it should be
+or a class. But remember that when you write it in your code, it should be
 `greeting` and not `#greeting`.
